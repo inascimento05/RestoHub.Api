@@ -17,19 +17,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-entrypoint", "1-entrypoin
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-modules", "2-modules", "{6B076C4D-3E4A-485F-91B6-EEFE0698E9BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestoHub.Api.Bootstrap", "src\RestoHub.Api.Bootstrap\RestoHub.Api.Bootstrap.csproj", "{F8E83640-26D2-4EED-B03E-AD237606E1F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestoHub.Api.Bootstrap", "src\RestoHub.Api.Bootstrap\RestoHub.Api.Bootstrap.csproj", "{F8E83640-26D2-4EED-B03E-AD237606E1F4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestoHub.Api.Modules.Shared", "modules\src\RestoHub.Api.Modules.SharedModule\RestoHub.Api.Modules.Shared.csproj", "{A0D3CE0D-C9DC-4EEE-8D12-C1BC67223113}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestoHub.Api", "src\RestoHub.Api\RestoHub.Api.csproj", "{0179051C-6B89-49A8-95CC-B83EEB3D3A3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestoHub.Api", "src\RestoHub.Api\RestoHub.Api.csproj", "{0179051C-6B89-49A8-95CC-B83EEB3D3A3C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestoHub.Api.Modules.SharedModule.Tests", "modules\tests\RestoHub.Api.Modules.SharedModule.Tests\RestoHub.Api.Modules.SharedModule.Tests.csproj", "{F0967BCD-BA74-4233-A0DD-E8C1B34A298F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestoHub.Api.Tests", "tests\RestoHub.Api.Tests\RestoHub.Api.Tests.csproj", "{CE84F55F-2873-44B9-9F2B-D53B3D9C9F22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestoHub.Api.Tests", "tests\RestoHub.Api.Tests\RestoHub.Api.Tests.csproj", "{CE84F55F-2873-44B9-9F2B-D53B3D9C9F22}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestoHub.Api.Modules.RestaurantesModule", "modules\src\RestoHub.Api.Modules.RestaurantesModule\RestoHub.Api.Modules.RestaurantesModule.csproj", "{91757077-8140-40DA-A33B-79262D1F251D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestoHub.Api.Modules.RestaurantesModule.Tests", "modules\tests\RestoHub.Api.Modules.RestaurantesModule.Tests\RestoHub.Api.Modules.RestaurantesModule.Tests.csproj", "{35816CB5-FABC-4690-8B06-0BB12E31E736}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestoHub.Api.Modules.UsersModule", "modules\src\RestoHub.Api.Modules.UsersModule\RestoHub.Api.Modules.UsersModule.csproj", "{5A4F553F-F246-4890-A58C-00CFD3F550E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestoHub.Api.Modules.UsersModule.Tests", "modules\tests\RestoHub.Api.Modules.UsersModule.Tests\RestoHub.Api.Modules.UsersModule.Tests.csproj", "{8B77BED1-3EA8-4D6C-865B-7542A9CD25ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +69,14 @@ Global
 		{35816CB5-FABC-4690-8B06-0BB12E31E736}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35816CB5-FABC-4690-8B06-0BB12E31E736}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35816CB5-FABC-4690-8B06-0BB12E31E736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A4F553F-F246-4890-A58C-00CFD3F550E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A4F553F-F246-4890-A58C-00CFD3F550E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A4F553F-F246-4890-A58C-00CFD3F550E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A4F553F-F246-4890-A58C-00CFD3F550E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B77BED1-3EA8-4D6C-865B-7542A9CD25ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B77BED1-3EA8-4D6C-865B-7542A9CD25ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B77BED1-3EA8-4D6C-865B-7542A9CD25ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B77BED1-3EA8-4D6C-865B-7542A9CD25ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +94,8 @@ Global
 		{CE84F55F-2873-44B9-9F2B-D53B3D9C9F22} = {6D3CADB3-BF57-46BE-84AE-F4432F8B3AC4}
 		{91757077-8140-40DA-A33B-79262D1F251D} = {1E8E8C53-24AB-4C43-A560-331374F0352D}
 		{35816CB5-FABC-4690-8B06-0BB12E31E736} = {6B076C4D-3E4A-485F-91B6-EEFE0698E9BC}
+		{5A4F553F-F246-4890-A58C-00CFD3F550E4} = {1E8E8C53-24AB-4C43-A560-331374F0352D}
+		{8B77BED1-3EA8-4D6C-865B-7542A9CD25ED} = {6B076C4D-3E4A-485F-91B6-EEFE0698E9BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF33FE89-EF76-482E-9D0F-E58D60E22D6D}

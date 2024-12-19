@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{83B59B04-768F-4F40-81CD-E607C9896273}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestoHub.Api.Modules.UsersModule", "src\RestoHub.Api.Modules.UsersModule\RestoHub.Api.Modules.UsersModule.csproj", "{4FF7C594-34C0-42CE-B869-E755EF720A90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2156ED01-79F6-40D5-9AFD-DF0A09101B27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestoHub.Api.Modules.UsersModule.Tests", "tests\RestoHub.Api.Modules.UsersModule.Tests\RestoHub.Api.Modules.UsersModule.Tests.csproj", "{B63A54DD-3B7F-4C2B-9FD8-1177D35791F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FF7C594-34C0-42CE-B869-E755EF720A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF7C594-34C0-42CE-B869-E755EF720A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF7C594-34C0-42CE-B869-E755EF720A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF7C594-34C0-42CE-B869-E755EF720A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B63A54DD-3B7F-4C2B-9FD8-1177D35791F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63A54DD-3B7F-4C2B-9FD8-1177D35791F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63A54DD-3B7F-4C2B-9FD8-1177D35791F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63A54DD-3B7F-4C2B-9FD8-1177D35791F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4FF7C594-34C0-42CE-B869-E755EF720A90} = {83B59B04-768F-4F40-81CD-E607C9896273}
+		{B63A54DD-3B7F-4C2B-9FD8-1177D35791F6} = {2156ED01-79F6-40D5-9AFD-DF0A09101B27}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7176B878-CBBE-4EBB-904B-45FADED2A53B}
+	EndGlobalSection
+EndGlobal

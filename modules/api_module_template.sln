@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0B91CEE6-8170-47FE-955F-9E614C26CAA5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortaldoMedico.Api.Modules.UsersModule", "src\PortaldoMedico.Api.Modules.UsersModule\PortaldoMedico.Api.Modules.UsersModule.csproj", "{062ABDB9-11F2-4CD5-A319-D7950FBE5E4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{03F216BC-78B6-4A30-B558-DE0385154735}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortaldoMedico.Api.Modules.UsersModule.Tests", "tests\PortaldoMedico.Api.Modules.UsersModule.Tests\PortaldoMedico.Api.Modules.UsersModule.Tests.csproj", "{241E7B39-2065-4181-845B-0F644AE51EE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{062ABDB9-11F2-4CD5-A319-D7950FBE5E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062ABDB9-11F2-4CD5-A319-D7950FBE5E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062ABDB9-11F2-4CD5-A319-D7950FBE5E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062ABDB9-11F2-4CD5-A319-D7950FBE5E4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{241E7B39-2065-4181-845B-0F644AE51EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{241E7B39-2065-4181-845B-0F644AE51EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{241E7B39-2065-4181-845B-0F644AE51EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{241E7B39-2065-4181-845B-0F644AE51EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{062ABDB9-11F2-4CD5-A319-D7950FBE5E4B} = {0B91CEE6-8170-47FE-955F-9E614C26CAA5}
+		{241E7B39-2065-4181-845B-0F644AE51EE7} = {03F216BC-78B6-4A30-B558-DE0385154735}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {842659EF-1FD8-4A5C-BF42-F1CCE95C29FB}
+	EndGlobalSection
+EndGlobal
